@@ -2,12 +2,12 @@
 #-*- coding:utf-8 -*-
 
 
-import socket
+import webapp
 import sys
 import random
 
 
-class aleat:
+class aleat(webapp.webApp):
     """Root of a hierarchy of classes implementing web applications
 
     This class does almost nothing. Usually, new classes will
